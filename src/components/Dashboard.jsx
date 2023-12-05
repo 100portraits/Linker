@@ -138,7 +138,7 @@ const Dashboard = () => {
               placeholder="URL"
               className=" bg-textwhite text-bgblue border-b h-min w-full"
             /></div>
-            <div className='flex gap-4 h-full items-center'><button onClick={() => setShowForm(false)} className='bg-textwhite text-bgblue h-min rounded-lg'>Cancel</button>
+            <div className='flex gap-4 h-full items-center'><div onClick={() => setShowForm(false)} className='bg-textwhite text-bgblue h-min rounded-lg'>Cancel</div>
             <button type="submit" className='h-full bg-bgblue px-6 bg-opacity-70 text-textwhite'>Save</button></div>
           </form>
         )}
