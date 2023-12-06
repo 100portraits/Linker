@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/users/*"
+from = "/*"
 to = "/"
 status = 200
